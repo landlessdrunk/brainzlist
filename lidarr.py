@@ -1,5 +1,6 @@
 import requests
 from urllib.parse import urlunparse, urlparse, urlencode
+
 class Lidarr:
     def __init__(self, api_key, url):
         self.api_key = api_key
