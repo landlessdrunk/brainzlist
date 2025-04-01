@@ -1,0 +1,23 @@
+[DEFAULT]
+#lidarr options
+QualityProfile = Default
+RootFolder = Library
+MetadataProfile = Standard
+#listenbrainz options
+PlaylistMatch = Jams
+
+[lidarr]
+Token = CHANGEME
+URL = CHANGEME
+
+[subsonic]
+SSHost = CHANGEME
+SSUser = CHANGEME
+SSPassword = CHANGEME
+SSPort = 443
+
+[musicbrainz]
+Email = example@example.com
+
+[listenbrainz]
+LBUser = CHANGEME
